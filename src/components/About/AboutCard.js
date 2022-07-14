@@ -1,7 +1,9 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
-import { ImPointRight } from 'react-icons/im'
 import { SiYourtraveldottv } from 'react-icons/si'
+import { CgGames } from 'react-icons/cg'
+import { BiMoviePlay } from 'react-icons/bi'
+
 
 function AboutCard() {
   return (
@@ -14,27 +16,27 @@ function AboutCard() {
             <br/>
             Sou de <span className="purple"> Teresina, Piauí, Brasil.</span>
             <br />
-            Eu sou um Desenvolvedor Front-End.
+            Eu sou Desenvolvedor Front-End em formação.
             <br />
             <br />
-            Além de estudar desenvolvimento eu também...
+            Além de estudar desenvolvimento eu também sou fascinado em...
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Jogar Video-Games, especialmente futebol e RPG
+              <CgGames /> Jogar Video-Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
+              <BiMoviePlay /> Assistir Séries e Filmes
             </li>
             <li className="about-activity">
-              <SiYourtraveldottv/> Amo Viajar
+              <SiYourtraveldottv/> Viajar
             </li>
           </ul>
 
-          <p style={{ color: 'rgb(155 126 172)' }}>
-            "Strive to build things that make a difference!"{' '}
+          <p style={{ color: 'lightblue' }}>
+            "Você é o único representante de seu sonho na face da terra!"{' '}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Emicida</footer>
         </blockquote>
       </Card.Body>
     </Card>

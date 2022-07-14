@@ -1,6 +1,11 @@
 import React from 'react'
 import { Container, Col } from 'react-bootstrap'
-import { AiFillGithub, AiOutlineTwitter, AiFillInstagram } from 'react-icons/ai'
+import {
+  AiFillGithub,
+  AiOutlineTwitter,
+  AiFillInstagram,
+  AiOutlineMail
+} from 'react-icons/ai'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { IoLogoWhatsapp } from 'react-icons/io'
 
@@ -11,10 +16,11 @@ function Contact() {
         <Col md={12} className="home-about-social">
           <h1>Entre em Contato</h1>
           <p>
-            Sinta-se a vontade para me  <span className="light-blue">seguir </span> e trocar uma idéia!
+            Sinta-se a vontade para me{' '}
+            <span className="light-blue">seguir </span> e trocar uma idéia!
           </p>
           <ul className="home-about-social-links row">
-            <li className="social-icons col-2">
+            <li className="social-icons col-4 col-md-2">
               <a
                 href="https://github.com/italoengdev"
                 target="_blank"
@@ -24,7 +30,7 @@ function Contact() {
                 <AiFillGithub />
               </a>
             </li>
-            <li className="social-icons col-2">
+            <li className="social-icons col-4 col-md-2">
               <a
                 href="https://twitter.com/italo_sg"
                 target="_blank"
@@ -34,7 +40,7 @@ function Contact() {
                 <AiOutlineTwitter />
               </a>
             </li>
-            <li className="social-icons col-2">
+            <li className="social-icons col-4 col-md-2">
               <a
                 href="https://www.linkedin.com/in/italoengdev/"
                 target="_blank"
@@ -44,7 +50,7 @@ function Contact() {
                 <FaLinkedinIn />
               </a>
             </li>
-            <li className="social-icons col-2">
+            <li className="social-icons col-4 col-md-2">
               <a
                 href="https://www.instagram.com/italo_sg/"
                 target="_blank"
@@ -54,7 +60,7 @@ function Contact() {
                 <AiFillInstagram />
               </a>
             </li>
-            <li className="social-icons col-2">
+            <li className="social-icons col-4 col-md-2">
               <a
                 href="https://whatsa.me/5586999843969/?t=Ol%C3%A1%20Italo!"
                 target="_blank"
@@ -62,6 +68,16 @@ function Contact() {
                 className="icon-colour home-social-icons"
               >
                 <IoLogoWhatsapp />
+              </a>
+            </li>
+            <li className="social-icons col-4 col-md-2">
+              <a
+                href="mailto:italo_saraiva182@hotmail.com?Subject=Ol%E1%20Italo%2C%20Tudo%20bem%3F&Body=Gostaria%20de%20conversar%20com%20voc%EA%21"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
+              >
+                <AiOutlineMail />
               </a>
             </li>
           </ul>

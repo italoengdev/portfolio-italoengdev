@@ -357,6 +357,7 @@ button:focus {
 
 .social-icons {
   display: inline-block !important;
+  margin-top: 10px !important;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -437,6 +438,7 @@ button:focus {
 /* About */
 /* --------- */
 
+
 .about-section {
   position: relative !important;
   padding-top: 150px !important;
@@ -453,9 +455,9 @@ button:focus {
   border: 1.7px solid #03faeb !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 5px !important;
+  border-radius: 75% !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px rgba(4, 143, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
