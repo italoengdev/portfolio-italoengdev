@@ -1,6 +1,6 @@
 
 # Preview
-![grab-landing-page](https://github.com/italoengdev/Interview_Fight/blob/master/src/img/gif/gifApp.gif)
+![grab-landing-page](https://github.com/italoengdev/portfolio-italoengdev/blob/master/src/Assets/portcell.png)
 # Portfolio feito em React-JS
 
 Projeto pessoal desenvolvido para o treino d Layout em várias páginas, estilização com React-Bootstrap, Bootstrap e CSS, Responsividade
