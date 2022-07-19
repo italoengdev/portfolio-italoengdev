@@ -16,15 +16,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Contact from "./components/Contact/Contact";
 
 function App() {
-  // const [load, upadateLoad] = useState(true);
-
-  // useEffect(() => {
-  //   const timer = setTimeout(() => { 
-  //     upadateLoad(false);
-  //   }, 1200);
-
-  //   return () => clearTimeout(timer);
-  // }, []);
 
   return (
     <Router>

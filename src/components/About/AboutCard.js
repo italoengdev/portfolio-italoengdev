@@ -3,6 +3,8 @@ import Card from 'react-bootstrap/Card'
 import { SiYourtraveldottv } from 'react-icons/si'
 import { CgGames } from 'react-icons/cg'
 import { BiMoviePlay } from 'react-icons/bi'
+import { FaSpotify } from 'react-icons/fa'
+
 
 
 function AboutCard() {
@@ -30,6 +32,9 @@ function AboutCard() {
             </li>
             <li className="about-activity">
               <SiYourtraveldottv/> Viajar
+            </li>
+            <li className="about-activity">
+              <FaSpotify/> <a href='https://open.spotify.com/user/12139226573'>Música</a>
             </li>
           </ul>
 

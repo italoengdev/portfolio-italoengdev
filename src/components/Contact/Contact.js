@@ -8,16 +8,18 @@ import {
 } from 'react-icons/ai'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { IoLogoWhatsapp } from 'react-icons/io'
+import Particle from "../Particle";
 
 function Contact() {
   return (
     <section>
       <Container fluid>
+        <Particle/>
         <Col md={12} className="home-about-social">
           <h1>Entre em Contato</h1>
           <p>
             Sinta-se a vontade para me{' '}
-            <span className="light-blue">seguir </span> e trocar uma idéia!
+            <span className="light-blue">seguir </span> e trocar uma ideia!
           </p>
           <ul className="home-about-social-links row">
             <li className="social-icons col-4 col-md-2">

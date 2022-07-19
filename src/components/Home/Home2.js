@@ -45,9 +45,9 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar d-flex align-self-center justify-content-center">
             <Tilt>
-              <img src={myImg} className="img-thumbnail rounded-circle bg-info" alt="Responsive image" />
+              <img src={myImg} className="img-thumbnail rounded-circle bg-info " alt="Responsive image" />
             </Tilt>
           </Col>
         </Row>
