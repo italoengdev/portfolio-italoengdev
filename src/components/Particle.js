@@ -9,13 +9,13 @@ function Particle() {
         "autoPlay": true,
         "background": {
           "color": {
-            "value": "#000000"
+            "value": "#0d47a1"
           },
           "image": "",
           "position": "50% 50%",
           "repeat": "no-repeat",
           "size": "cover",
-          "opacity": 0
+          "opacity": 0.1
         },
         "backgroundMask": {
           "composite": "destination-out",
@@ -23,13 +23,13 @@ function Particle() {
             "color": {
               "value": "#fff"
             },
-            "opacity": 0.5
+            "opacity": .01
           },
           "enable": false
         },
         "fullScreen": {
           "enable": true,
-          "zIndex": 0
+          "zIndex": 1
         },
         "detectRetina": true,
         "duration": 0,
@@ -48,11 +48,11 @@ function Particle() {
               "type": "circle"
             },
             "onHover": {
-              "enable": false,
+              "enable": true,
               "mode": "repulse",
               "parallax": {
                 "enable": false,
-                "force": 2,
+                "force": 60,
                 "smooth": 10
               }
             },
@@ -61,24 +61,24 @@ function Particle() {
           "modes": {
             "attract": {
               "distance": 200,
-              "duration": 0.9,
+              "duration": 0.4,
               "easing": "ease-out-quad",
               "factor": 1,
-              "maxSpeed": 10,
+              "maxSpeed": 50,
               "speed": 1
             },
             "bounce": {
-              "distance": 500
+              "distance": 200
             },
             "bubble": {
-              "distance": 800,
+              "distance": 400,
               "duration": 2,
               "mix": false,
               "opacity": 0.8,
               "size": 40,
               "divs": {
                 "distance": 200,
-                "duration": 0.9,
+                "duration": 0.4,
                 "mix": false,
                 "selectors": []
               }
@@ -119,12 +119,7 @@ function Particle() {
             },
             "push": {
               "default": true,
-              "groups": [
-                "z5000",
-                "z7500",
-                "z2500",
-                "z1000"
-              ],
+              "groups": [],
               "quantity": 4
             },
             "remove": {
@@ -135,21 +130,21 @@ function Particle() {
               "duration": 0.4,
               "factor": 100,
               "speed": 1,
-              "maxSpeed": 20,
+              "maxSpeed": 50,
               "easing": "ease-out-quad",
               "divs": {
                 "distance": 200,
                 "duration": 0.4,
-                "factor": 10,
+                "factor": 100,
                 "speed": 1,
-                "maxSpeed": 20,
+                "maxSpeed": 50,
                 "easing": "ease-out-quad",
                 "selectors": []
               }
             },
             "slow": {
-              "factor": 1,
-              "radius": 900
+              "factor": 3,
+              "radius": 200
             },
             "trail": {
               "delay": 1,
@@ -162,7 +157,7 @@ function Particle() {
         "motion": {
           "disable": false,
           "reduce": {
-            "factor": 1,
+            "factor": 4,
             "value": true
           }
         },
@@ -173,7 +168,7 @@ function Particle() {
                 "enable": false,
                 "minimumValue": 0.1
               },
-              "value": 0.1
+              "value": 1
             },
             "vertical": {
               "random": {
@@ -208,13 +203,13 @@ function Particle() {
             }
           },
           "color": {
-            "value": "#fff",
+            "value": "#ffffff",
             "animation": {
               "h": {
                 "count": 0,
                 "enable": false,
                 "offset": 0,
-                "speed": 20,
+                "speed": 1,
                 "decay": 0,
                 "sync": true
               },
@@ -261,48 +256,15 @@ function Particle() {
             }
           },
           "gradient": [],
-          "groups": {
-            "z5000": {
-              "number": {
-                "value": 70
-              },
-              "zIndex": {
-                "value": 50
-              }
-            },
-            "z7500": {
-              "number": {
-                "value": 30
-              },
-              "zIndex": {
-                "value": 75
-              }
-            },
-            "z2500": {
-              "number": {
-                "value": 50
-              },
-              "zIndex": {
-                "value": 25
-              }
-            },
-            "z1000": {
-              "number": {
-                "value": 40
-              },
-              "zIndex": {
-                "value": 10
-              }
-            }
-          },
+          "groups": {},
           "links": {
             "blink": false,
             "color": {
               "value": "#ffffff"
             },
             "consent": false,
-            "distance": 100,
-            "enable": false,
+            "distance": 150,
+            "enable": true,
             "frequency": 1,
             "opacity": 0.4,
             "shadow": {
@@ -322,7 +284,7 @@ function Particle() {
           "move": {
             "angle": {
               "offset": 0,
-              "value": 10
+              "value": 90
             },
             "attract": {
               "distance": 200,
@@ -339,14 +301,14 @@ function Particle() {
             },
             "decay": 0,
             "distance": {},
-            "direction": "right",
+            "direction": "none",
             "drift": 0,
             "enable": true,
             "gravity": {
               "acceleration": 9.81,
               "enable": false,
               "inverse": false,
-              "maxSpeed": 20
+              "maxSpeed": 50
             },
             "path": {
               "clamp": true,
@@ -369,7 +331,7 @@ function Particle() {
             },
             "random": false,
             "size": false,
-            "speed": 1,
+            "speed": 2,
             "spin": {
               "acceleration": 0,
               "enable": false
@@ -387,23 +349,26 @@ function Particle() {
           },
           "number": {
             "density": {
-              "enable": false,
-              "area": 100,
-              "factor": 200
+              "enable": true,
+              "area": 800,
+              "factor": 1000
             },
             "limit": 0,
-            "value": 200
+            "value": 80
           },
           "opacity": {
             "random": {
               "enable": false,
               "minimumValue": 0.1
             },
-            "value": 1,
+            "value": {
+              "min": 0.1,
+              "max": 0.5
+            },
             "animation": {
               "count": 0,
-              "enable": false,
-              "speed": 3,
+              "enable": true,
+              "speed": 1,
               "decay": 0,
               "sync": false,
               "destroy": "none",
@@ -451,34 +416,103 @@ function Particle() {
             }
           },
           "shape": {
-            "options": {},
-            "type": "circle"
+            "options": {
+              "character": {
+                "value": [
+                  "i",
+                  "t",
+                  "a",
+                  "l",
+                  "o",
+                  "e",
+                  "n",
+                  "g",
+                  "d",
+                  "e",
+                  "v"
+                ],
+                "font": "Verdana",
+                "style": "",
+                "weight": "400",
+                "fill": true
+              },
+              "char": {
+                "value": [
+                  "t",
+                  "s",
+                  "P",
+                  "a",
+                  "r",
+                  "t",
+                  "i",
+                  "c",
+                  "l",
+                  "e",
+                  "s"
+                ],
+                "font": "Verdana",
+                "style": "",
+                "weight": "400",
+                "fill": true
+              }
+            },
+            "type": "char"
           },
           "size": {
             "random": {
               "enable": false,
               "minimumValue": 1
             },
-            "value": 3,
+            "value": 16,
             "animation": {
               "count": 0,
               "enable": false,
-              "speed": 5,
+              "speed": 10,
               "decay": 0,
               "sync": false,
               "destroy": "none",
-              "startValue": "random"
+              "startValue": "random",
+              "minimumValue": 10
             }
           },
           "stroke": {
-            "width": 0
+            "width": 1,
+            "color": {
+              "value": "#ffffff",
+              "animation": {
+                "h": {
+                  "count": 0,
+                  "enable": false,
+                  "offset": 0,
+                  "speed": 1,
+                  "decay": 0,
+                  "sync": true
+                },
+                "s": {
+                  "count": 0,
+                  "enable": false,
+                  "offset": 0,
+                  "speed": 1,
+                  "decay": 0,
+                  "sync": true
+                },
+                "l": {
+                  "count": 0,
+                  "enable": false,
+                  "offset": 0,
+                  "speed": 1,
+                  "decay": 0,
+                  "sync": true
+                }
+              }
+            }
           },
           "zIndex": {
             "random": {
               "enable": false,
-              "minimumValue": 0
+              "minimumValue": -2
             },
-            "value": 5,
+            "value": -1,
             "opacityRate": 0.5,
             "sizeRate": 1,
             "velocityRate": 1
@@ -489,29 +523,7 @@ function Particle() {
         "responsive": [],
         "style": {},
         "themes": [],
-        "zLayers": 100,
-        "emitters": {
-          "autoPlay": true,
-          "fill": true,
-          "life": {
-            "wait": false
-          },
-          "rate": {
-            "quantity": 1,
-            "delay": 7
-          },
-          "shape": "square",
-          "startCount": 0,
-          "size": {
-            "mode": "percent",
-            "height": 0,
-            "width": 0
-          },
-          "position": {
-            "x": -5,
-            "y": 55
-          }
-        }
+        "zLayers": 100
       }}
     />
   );
