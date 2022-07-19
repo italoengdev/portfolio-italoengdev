@@ -23,7 +23,7 @@ function Particle() {
             "color": {
               "value": "#fff"
             },
-            "opacity": 1
+            "opacity": 0.5
           },
           "enable": false
         },
@@ -61,24 +61,24 @@ function Particle() {
           "modes": {
             "attract": {
               "distance": 200,
-              "duration": 0.4,
+              "duration": 0.9,
               "easing": "ease-out-quad",
               "factor": 1,
-              "maxSpeed": 50,
+              "maxSpeed": 10,
               "speed": 1
             },
             "bounce": {
-              "distance": 200
+              "distance": 500
             },
             "bubble": {
-              "distance": 400,
+              "distance": 800,
               "duration": 2,
               "mix": false,
               "opacity": 0.8,
               "size": 40,
               "divs": {
                 "distance": 200,
-                "duration": 0.4,
+                "duration": 0.9,
                 "mix": false,
                 "selectors": []
               }
@@ -135,21 +135,21 @@ function Particle() {
               "duration": 0.4,
               "factor": 100,
               "speed": 1,
-              "maxSpeed": 50,
+              "maxSpeed": 20,
               "easing": "ease-out-quad",
               "divs": {
                 "distance": 200,
                 "duration": 0.4,
-                "factor": 100,
+                "factor": 10,
                 "speed": 1,
-                "maxSpeed": 50,
+                "maxSpeed": 20,
                 "easing": "ease-out-quad",
                 "selectors": []
               }
             },
             "slow": {
-              "factor": 3,
-              "radius": 200
+              "factor": 1,
+              "radius": 900
             },
             "trail": {
               "delay": 1,
@@ -162,7 +162,7 @@ function Particle() {
         "motion": {
           "disable": false,
           "reduce": {
-            "factor": 4,
+            "factor": 1,
             "value": true
           }
         },
@@ -173,7 +173,7 @@ function Particle() {
                 "enable": false,
                 "minimumValue": 0.1
               },
-              "value": 1
+              "value": 0.1
             },
             "vertical": {
               "random": {
@@ -346,7 +346,7 @@ function Particle() {
               "acceleration": 9.81,
               "enable": false,
               "inverse": false,
-              "maxSpeed": 50
+              "maxSpeed": 20
             },
             "path": {
               "clamp": true,
@@ -369,7 +369,7 @@ function Particle() {
             },
             "random": false,
             "size": false,
-            "speed": 5,
+            "speed": 1,
             "spin": {
               "acceleration": 0,
               "enable": false
@@ -388,8 +388,8 @@ function Particle() {
           "number": {
             "density": {
               "enable": false,
-              "area": 800,
-              "factor": 1000
+              "area": 100,
+              "factor": 200
             },
             "limit": 0,
             "value": 200
