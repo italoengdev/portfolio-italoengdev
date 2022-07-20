@@ -15,7 +15,7 @@ function Home2() {
               <span className="light-blue"> FALANDO </span> UM POUCO SOBRE MIM
             </h1>
             <p className="home-about-body">
-              <br /> Sempre tive paixão por Tecnologia e Informática e com a ascendência do mercado de TI, resolvi investir nessa área entrando de cabeça nos estudos de
+              <br /> Sempre tive paixão por Tecnologia e Informática e com a ascendência do mercado de TI, resolvi investir nessa área, entrando de cabeça nos estudos de
               <i>
                 <b className="light-blue"> Desenvolvimento Web</b>
               </i>. Hoje curso<b className="light-blue"> Análise e Desenvolvimento de Sistemas </b> e tenho previsão de graduação em 2024.
