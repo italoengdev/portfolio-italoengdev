@@ -4,9 +4,10 @@ import Particle from '../Particle'
 import Github from './Github'
 import Techstack from './Techstack'
 import Aboutcard from './AboutCard'
-import me4 from '../../Assets/me4.jpg'
+import me4 from '../../Assets/me4.jpeg'
 import game from '../../Assets/TW3_Wild_Hunt.png'
 import rupture from '../../Assets/rupture.jpg'
+import strokes from '../../Assets/strokes.jpg'
 import Toolstack from './Toolstack'
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
@@ -22,10 +23,11 @@ function About() {
             style={{ paddingTop: '50px', paddingBottom: '50px' }}
             className="about-img"
           >
-            <AwesomeSlider  className="img-fluid img-thumbnail rounded">
+            <AwesomeSlider transitionDelay={0} className="img-fluid img-thumbnail rounded">
               <div data-src={me4}  />
               <div data-src={game} />
               <div data-src={rupture} />
+              <div data-src={strokes} />
             </AwesomeSlider>
           </Col>
           <Col
