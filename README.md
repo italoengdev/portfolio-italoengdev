@@ -3,21 +3,17 @@
 ![grab-landing-page](https://github.com/italoengdev/portfolio-italoengdev/blob/master/src/Assets/portcell.png)
 # Portfolio feito em React-JS
 
-Projeto pessoal desenvolvido para o treino d Layout em várias páginas, estilização com React-Bootstrap, Bootstrap e CSS, Responsividade
+Projeto pessoal desenvolvido para o treino de Layout em várias páginas, estilização com React-Bootstrap, Bootstrap e CSS, Responsividade.
 
 
 ## Deploy
 
--
-
-
+https://portfolio-italoengdev.vercel.app/
 
 ## Autores
 
 [@italoengdev](https://www.github.com/italoengdev)
 [@soumyajit4419](https://github.com/soumyajit4419) (Template)
-
-
 
 ## Funcionalidades
 
@@ -42,6 +38,7 @@ O projeto foi desenvovido com Bootstrap versão 5.2 o que trouxe boa responsivid
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://www.w3schools.com/css/)
 [![BOOTSTRAP](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 [![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/)
+[![REACT](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 
 
 ### Contato
