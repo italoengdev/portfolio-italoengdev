@@ -57,7 +57,7 @@ function Projects() {
             <ProjectCard
               imgPath={nextjs}
               isBlog={false}
-              title="Whitchercord"
+              title="Witchercord"
               description="Projeto desenvolvido para estudos de ReactJS, NextJS e Supabase. Feito com a ajuda da Alura.
               Funcionalidades:
               useState,
