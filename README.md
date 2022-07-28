@@ -8,7 +8,7 @@ Projeto pessoal desenvolvido para o treino de Layout em várias páginas, estili
 
 ## Deploy
 
-https://portfolio-italoengdev.vercel.app/
+[Portfolio](https://italoengdev.me/)
 
 ## Autores
 
