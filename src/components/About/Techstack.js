@@ -11,30 +11,34 @@ import {
   SiTailwindcss
 } from "react-icons/si";
 import { BsFillBootstrapFill} from "react-icons/bs";
+import { AiOutlineConsoleSql} from "react-icons/ai";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <BsFillBootstrapFill />
+        <BsFillBootstrapFill title="Bootstrap" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiJavascript1 title="Javascript" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiReact title="ReactJS" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        <SiNextdotjs title="NextJS" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
+        <DiGit title="Git" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiFirebase title="Firebase"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
+        <SiTailwindcss title="TailwindCss" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <AiOutlineConsoleSql title="SQL" />
       </Col>
     </Row>
   );

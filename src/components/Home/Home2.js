@@ -24,13 +24,15 @@ function Home2() {
               Atualmente sou fascinado pelo desenvolvimento  &nbsp;
               <i>
                 <b className="light-blue">Front-End </b>&nbsp; 
-              </i>e futuramente pretendo me aprofundar mais nos estudos e me tornar um desenvolvedor{" "}
+              </i>e <i>
+                <b className="light-blue">Low-Code </b>&nbsp; 
+              </i> futuramente pretendo me aprofundar mais nos estudos e me tornar um desenvolvedor{" "}
               <b className="light-blue">
                   Fullstack.
                 </b>
               <br />
               <br />
-              Tenho me aprimorado em várias tecnologias e minhas preferidas são <b className="light-blue">Bootstrap</b> e
+              Tenho me aprimorado em várias tecnologias e minhas preferidas são <b className="light-blue">Outsystems</b> , <b className="light-blue">Bootstrap</b> e
               <i>
                 <b className="light-blue">
                   {" "}

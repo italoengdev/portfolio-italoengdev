@@ -15,7 +15,7 @@ function ProjectCards(props) {
         </Card.Text>
         <Button className="d-flex align-self-center justify-content-center m-1" variant="primary" href={props.ghLink} target="_blank">
           <BsGithub className="mt-1" /> &nbsp;
-          {props.isBlog ? "Blog" : "GitHub"}
+          {props.isBlog ? "Deploy" : "GitHub"}
         </Button>
         {"\n"}
         {"\n"}

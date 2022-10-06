@@ -11,6 +11,8 @@ import calc from '../../Assets/Projects/6-calc.png'
 import kanban from '../../Assets/Projects/7-kanban.png'
 import port from '../../Assets/Projects/8-port.png'
 import nextjs from '../../Assets/Projects/9-nextjs.png'
+import Outsystems1 from '../../Assets/Projects/outsystems1.png'
+import Outsystems2 from '../../Assets/Projects/outsystems2.png'
 
 function Projects() {
   return (
@@ -66,6 +68,26 @@ function Projects() {
               "
               ghLink="https://github.com/italoengdev/imersao_react"
               demoLink="http://imersao-react-pearl.vercel.app/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Outsystems1}
+              isBlog={true}
+              title="OSMDb - Rent a Movie - Outsystems"
+              description="Dentre as features desenvolvidas, temos: Screens Creation, Entity Relationships, Form Validations, Security and Exceptions, Blocks and Events, Search Features and Pagination.Como desafio adicionei posters e fotos dos atores/diretores através do consumo da API do themoviedb.org. Entre usando o usuário Guest"
+              ghLink="https://personal-zb1xdx9h.outsystemscloud.com/OSMDb_isg/"
+              demoLink="https://personal-zb1xdx9h.outsystemscloud.com/OSMDb_isg/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Outsystems2}
+              isBlog={true}
+              title="TicketApp - Seu app de Passagens - Outsystems"
+              description="App desenvolvido a partir de uma regra de negócios em um projeto final de um Bootcamp. CRUD, condicionais, validações entre outras features foram implementadas. Entre usando o usuário Guest"
+              ghLink="https://personal-zb1xdx9h.outsystemscloud.com/TicketApp/"
+              demoLink="https://personal-zb1xdx9h.outsystemscloud.com/TicketApp/"
             />
           </Col>
           <Col md={4} className="project-card">
