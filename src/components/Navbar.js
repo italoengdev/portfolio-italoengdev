@@ -4,6 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
+import Button from 'react-bootstrap/Button';
+import {FaWhatsapp} from 'react-icons/fa'
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -41,10 +43,10 @@ function NavBar() {
           <span></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ms-auto" defaultActiveKey="#home">
+          <Nav className="mt-3" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                Home
+                Início
               </Nav.Link>
             </Nav.Item>
 
@@ -54,7 +56,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                Sobre
+                Especialidades
               </Nav.Link>
             </Nav.Item>
 
@@ -64,10 +66,21 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                Projetos
+                Quem Somos
               </Nav.Link>
             </Nav.Item>
 
+            
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/resume"
+                onClick={() => updateExpanded(false)}
+              >
+                 Nossa Equipe
+              </Nav.Link>
+            </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -77,16 +90,10 @@ function NavBar() {
                  Contato
               </Nav.Link>
             </Nav.Item>
-
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                 Currículo
-              </Nav.Link>
+            <Button className="mt-1" variant="secondary"><FaWhatsapp/> Agende Sua Consulta</Button>{' '}
             </Nav.Item>
+           
           </Nav>
         </Navbar.Collapse>
       </Container>
