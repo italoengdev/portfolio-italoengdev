@@ -8,13 +8,12 @@ import {
 } from 'react-icons/ai'
 import { FaLinkedinIn } from 'react-icons/fa'
 import { IoLogoWhatsapp } from 'react-icons/io'
-import Particle from "../Particle";
+
 
 function Contact() {
   return (
     <section>
       <Container fluid>
-        <Particle/>
         <Col md={12} className="home-about-social">
           <h1>Entre em Contato</h1>
           <p>
